@@ -64,6 +64,7 @@ jobs:
         run: |
           # rm -f ./.config*
           # touch ./.config
+          mv default.config ./.config
 
           #
           # ========================固件定制部分========================
